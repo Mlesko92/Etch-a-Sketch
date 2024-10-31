@@ -2,13 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 1600px;
     gap: 16px;
-
 }
 
 .content div {
     background-color: lightgreen;
     transition: background-color 0.3s;
+    opacity: 150%;
 }
 
 button {
